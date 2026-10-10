@@ -16,9 +16,15 @@
         margin: 0 auto;
         text-align: center;
       }
+
+      .table-1 {
+        background: #c2ffd1;
+        border: 1px solid #ff4400;
+      }
     </style>
   </head>
   <body>
+    <a href="" name="first-index"></a>
     <!-- Thẻ a -->
     <div class="menu">
       <a href="#home">Trang chủ</a> | <a href="#gen">Giới trẻ</a> |
@@ -26,7 +32,8 @@
       <a href="#new">Tin tức</a> | <a href="#hire">Tuyển dụng</a> |
       <a href="#contact">Liên hệ</a>
     </div>
-    <h1>Các thẻ HTML</h1>
+    <a name="first-paragraph"></a>
+    <h1 id="#html">Các thẻ HTML</h1>
     <p align="center">
       <b><u>Lorem ipsum, dolor sit amet consectetur adipisicing elit</u></b
       >. Labore quaerat modi harum alias tempora et voluptates, eligendi placeat
@@ -73,6 +80,7 @@
       fuga vitae provident fugiat suscipit asperiores impedit doloremque a in
       cumque dolores fugit.
     </p>
+
     <!-- Thẻ danh sách có thứ tự -->
     <ol type="I">
       <li>
@@ -134,5 +142,35 @@
       quibusdam.
     </p>
     <p>Email: <a href="mailto:example@gmail.com">send mail</a></p>
+    <p>
+      <a href="#first-index">Về đầu trang</a> |
+      <a href="#first-paragraph">Về đầu đoạn ul li</a>
+    </p>
+
+    <!-- Thẻ table -->
+    <p>Example table:</p>
+    <table class="table-1" border="1" cellpadding="10px" cellspacing="0px">
+      <thead>
+        <tr>
+          <th colspan="2">Colum 1</th>
+          <th>Colum 1</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">Cell</td>
+          <td>Cell 2</td>
+          <td>Cell 3</td>
+        </tr>
+        <tr>
+          <td>Cell 2</td>
+          <td>Cell 3</td>
+        </tr>
+        <tr>
+          <td>Cell 2</td>
+          <td>Cell 3</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
