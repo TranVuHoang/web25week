@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Đăng ký</title>
+    <style>
+      .red-star {
+        color: red;
+      }
+    </style>
   </head>
   <body>
+    <h1>Đăng ký thành viên</h1>
+    <hr />
     <form action="thanks.html" method="post">
-      <label for="fullname">Họ tên: </label>
+      <label for="fullname">Họ tên<span class="red-star">*</span>: </label>
       <input
         type="text"
         id="fullname"
@@ -18,8 +25,13 @@
       <label for="address">Địa chỉ: </label>
       <input type="text" id="address" placeholder="address..." /><br /><br />
 
-      <label for="email">Email: </label>
-      <input type="email" id="email" placeholder="email..." /><br /><br />
+      <label for="email">Email<span class="red-star">*</span>: </label>
+      <input
+        type="email"
+        id="email"
+        placeholder="email..."
+        required
+      /><br /><br />
 
       <label for="phone">Phone: </label>
       <input type="number" id="phone" maxlength="15" /><br /><br />
@@ -50,11 +62,11 @@
       </select>
       <br /><br />
 
-      <label for="username">Username:</label>
-      <input type="text" id="username" /><br /><br />
+      <label for="username">Username<span class="red-star">*</span>:</label>
+      <input type="text" id="username" required /><br /><br />
 
-      <label for="password">Password:</label>
-      <input type="password" id="password" /><br /><br />
+      <label for="password">Password<span class="red-star">*</span>:</label>
+      <input type="password" id="password" required /><br /><br />
 
       <label for="more">Thông tin thêm:</label><br />
       <textarea name="" id="" placeholder="Thông tin thêm..."></textarea><br />
