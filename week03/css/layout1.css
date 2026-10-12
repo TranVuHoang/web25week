@@ -1,0 +1,22 @@
+.text-red {
+  color: red;
+}
+
+.banner {
+  width: 100vw;
+  height: 300px;
+  background:
+    linear-gradient(to right bottom, #ff02029d, #0000fb96),
+    url("https://images.unsplash.com/photo-1790875183159-10d3ffbeb74a")
+      no-repeat center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  text-align: center;
+}
