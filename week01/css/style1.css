@@ -1,0 +1,38 @@
+.img-gr {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.menu {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table-1 {
+  background: #c2ffd1;
+  border: 1px solid #ff4400;
+}
+
+.txt-1 {
+  color: red;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.txt-year {
+  color: red;
+  text-decoration: line-through;
+}
+
+.desc-1 {
+  background: yellow;
+  color: red;
+}
+
+.text-red {
+  color: red;
+  font-size: 20px;
+}
